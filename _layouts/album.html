@@ -12,8 +12,10 @@
     <section id="album" class="inner">
         <h4>{{ page.title }}</h4>
         {% assign image_files = site.static_files | where: "image", true %}
-        {% for image in image_files contains page.folder %}
+        {% for image in image_files %}
+        {% if image.path contains page.folder %}
         <img src="{{ site.url}}/{{ image.path }}" width="240px" height="160px">
+        {% endif %}
         {% endfor %}
     </section>
 </div>
