@@ -1,8 +1,7 @@
 ### Storeyclub
 
-{% for post in site.posts %}
+{% for page in site.pages %}
 
     test
- {% post %}
  
 {% endfor %}
