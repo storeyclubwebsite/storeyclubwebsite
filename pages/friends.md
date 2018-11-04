@@ -1,6 +1,6 @@
 ### Vrienden van de Storeyclub
 
-#####Wat doen de vrienden van de Storey Club?
+##### Wat doen de vrienden van de Storey Club?
 -  Continuiteit Storeyclub waarborgen
 -  Maatschappelijk draagvlak creëren
 -  Hulp aan huidig en toekomstig bestuur
