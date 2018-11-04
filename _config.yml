@@ -1,10 +1,8 @@
 theme: jekyll-theme-slate
-url: https://storeyclubwebsite.github.io/storeyclubwebsite/
+url: https://storeyclubwebsite.github.io/storeyclubwebsite
 lang: "nl-NL"
 facebook_url: "https://www.facebook.com/Storeyclub"
 
-defaults:
-  - scope:
-      path: "pictures"
-    values:
-      image: true
+collections:
+  - pictures
+
