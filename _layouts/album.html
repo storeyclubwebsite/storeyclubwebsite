@@ -10,10 +10,9 @@
 <!-- MAIN CONTENT -->
 <div id="main_content_wrap" class="outer">
     <section id="album" class="inner">
+        <h4>{{ page.title }}</h4>
         {% assign image_files = site.static_files | where: "image", true %}
-        <p>{{ page.title }}</p>
-        <p>{{ page.folder }}</p>
-        {% for image in image_files %}
+        {% for image in image_files contains page.folder %}
         <img src="{{ site.url}}/{{ image.path }}" width="240px" height="160px">
         {% endfor %}
     </section>
