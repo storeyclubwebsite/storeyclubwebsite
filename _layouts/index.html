@@ -39,7 +39,7 @@
     </section>
 
     <section id="posts" class="inner">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:10 %}
         <h3>
             <a href="{{ site.url }}{{ post.url }}">
                 {{ post.title }}
