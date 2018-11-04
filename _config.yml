@@ -13,3 +13,6 @@ defaults:
     path: "pictures"
   values:
     image: true
+
+plugins:
+  - jekyll-paginate
