@@ -11,9 +11,13 @@
 <div id="main_content_wrap" class="outer">
     <section id="main_content" class="inner">
         <h4>Albums:</h4>
-        {% for album in site.albums %}
-        <a href="{{ site.url }}{{ album.url}}">{{ album.title }}</a>
-        {% endfor %}
+        <ul style="list-style-type: none;">
+            {% for album in site.albums %}
+            <li>
+                <a href="{{ site.url }}{{ album.url}}">{{ album.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </section>
 </div>
 
