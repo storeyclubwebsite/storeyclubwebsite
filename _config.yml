@@ -4,16 +4,16 @@ lang: "nl-NL"
 facebook_url: "https://www.facebook.com/Storeyclub"
 
 collections:
-  - albums
-
+  albums:
+    output: true
 
 defaults:
-  - scope:
-      path: "pictures"
-    values:
-      image: true
-  - scope:
-      path: "albums"
-    values:
-      type: "pages"
-      layout: "album"
+- scope:
+    path: "pictures"
+  values:
+    image: true
+- scope:
+    path: "albums"
+  values:
+    type: "pages"
+    layout: "album"
