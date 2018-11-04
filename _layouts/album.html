@@ -12,7 +12,9 @@
     <section id="album" class="inner">
         {% assign image_files = site.static_files | where: "image", true %}
         {% for image in image_files %}
+        {% if image.path contains "scary_night" %}
         <img src="{{ site.url}}/{{ image.path }}" width="240px" height="160px">
+        {% endif %}
         {% endfor %}
     </section>
 </div>
