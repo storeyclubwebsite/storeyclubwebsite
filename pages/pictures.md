@@ -1,6 +1,6 @@
 ---
 title: Foto's
-layout: pictures
+layout: albums
 ---
 
 
