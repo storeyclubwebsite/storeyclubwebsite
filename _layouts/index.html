@@ -16,6 +16,13 @@
             padding-top: 10px;
             padding-right: 10px;
         }
+
+        .background-logo {
+            background-image: url("{{ site.url }}/images/logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: contain;
+            background-size: contain;
+        }
     </style>
 
     {% seo %}
@@ -25,7 +32,7 @@
 
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
-    <header class="inner">
+    <header class="inner background-logo">
         <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
 
         <section id="links" class="flex">
