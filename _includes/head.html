@@ -1,0 +1,26 @@
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen"
+          href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <style>
+        .flex {
+            display: flex;
+        }
+
+        .flex > a {
+            padding-top: 10px;
+            padding-right: 10px;
+        }
+
+        .background-logo {
+            background-image: url("{{ site.url }}/images/logo.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: contain;
+            background-size: contain;
+        }
+    </style>
+    {% seo %}
+</head>
