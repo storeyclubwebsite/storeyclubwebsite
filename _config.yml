@@ -2,6 +2,7 @@ theme: jekyll-theme-slate
 url: https://storeyclubwebsite.github.io/storeyclubwebsite
 lang: "nl-NL"
 facebook_url: "https://www.facebook.com/Storeyclub"
+paginate: 2
 
 collections:
   albums:
