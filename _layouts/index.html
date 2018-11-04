@@ -7,6 +7,16 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen"
           href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+        .flex {
+            display: flex;
+        }
+
+        .flex > a {
+            padding-top: 10px;
+            padding-right: 10px;
+        }
+    </style>
 
     {% seo %}
 </head>
@@ -16,18 +26,15 @@
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
     <header class="inner">
-        {% if site.github.is_project_page %}
-        <a href="{{ site.facebook_url }}">View on GitHub</a>
-        {% endif %}
-
         <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
         <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
-        <section id="links">
+        <section id="links" class="flex">
             <a href="{{ site.url }}/pages/agenda">Agenda</a>
             <a href="{{ site.url }}/pages/pictures">Foto's</a>
             <a href="{{ site.url }}/pages/contact">Vrienden van de storeyclub</a>
             <a href="{{ site.url }}/pages/friends">Contact</a>
+            <a href="{{ site.facebook_url }}" target="_blank">Facebook page</a>
         </section>
     </header>
 </div>
