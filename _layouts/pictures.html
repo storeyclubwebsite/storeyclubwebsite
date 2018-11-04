@@ -10,8 +10,13 @@
 <!-- MAIN CONTENT -->
 <div id="main_content_wrap" class="outer">
     <section id="album" class="inner">
+        <h4>Albums: </h4>
         {% for album in site.collections.albums %}
             test aa
+        {% endfor %}
+        <h4>Albums</h4>
+        {% for album in site.albums %}
+        test bb
         {% endfor %}
     </section>
 </div>
