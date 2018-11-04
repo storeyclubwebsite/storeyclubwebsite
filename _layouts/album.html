@@ -10,7 +10,10 @@
 <!-- MAIN CONTENT -->
 <div id="main_content_wrap" class="outer">
     <section id="album" class="inner">
-        Test album
+        {% assign image_files = site.static_files | where: "image", true %}
+        {% for image in image_files %}
+        <img src="{{ site.url}}/{{ image.path }}" width="240px" height="160px">
+        {% endfor %}
     </section>
 </div>
 
