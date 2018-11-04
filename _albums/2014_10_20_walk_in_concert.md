@@ -1,6 +1,7 @@
 ---
 title: Walk in concert
 folder: 2014_10_20_walk_in_concert
+layout: album
 ---
 
 

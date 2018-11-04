@@ -12,8 +12,3 @@ defaults:
     path: "pictures"
   values:
     image: true
-- scope:
-    path: "albums"
-  values:
-    type: "pages"
-    layout: "album"
