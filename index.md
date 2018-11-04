@@ -2,6 +2,6 @@
 
 {% for page in site.pages %}
 
-    {% page.content %}
+    {{ page.content }}
  
 {% endfor %}
