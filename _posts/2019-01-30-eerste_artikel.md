@@ -1,6 +1,6 @@
 ---
-title: Eerste Artikel
-description: Meer informatie...
+title: Eerste Artikel, nieuwe titel
+description: Een artikel over google
 ---
 
 # Test post
