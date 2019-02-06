@@ -134,3 +134,11 @@ Wees gerust, er kan weinig fout gaan. Er zit goede controle in, die eventuele fo
 Handmatig: Push naar https://github.com/storeyclubwebsite/storeyclubwebsite
 
 Automatisch: Voer het `uploaden.sh` bestand uit.
+
+##### Notes
+
+Je hebt toegang nodig om alles live te zetten. Vraag hierom per email, of eventueel op https://github.com/storeyclubwebsite/storeyclubwebsite/issues
+
+Het duurt even om live te zetten
+
+Als er errors zijn, dan zet hij het niet live. Je krijgt dan een email.
