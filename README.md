@@ -17,6 +17,41 @@ Voor meer informatie:
 Editor: 
 https://stackedit.io/
 
+## De .md files
+
+Dit zijn de markdown files. Vaak staat er aan het begin van de bestanden
+
+```
+
+---
+title: My First Page
+layout: index
+---
+
+```
+
+Dit is meta informatie. Niet de pagina zelf, maar bevat informatie over de pagina. 
+Deze informatie is nodig om te pagina te genereren. `Haal dit nooit weg!`.
+
+
+De volgende attributen zijn eventueel aan te passen:
+- title: De titel van de pagina
+- description: Een korte beschrijven over de pagina
+
+De volgende attributen NIET aanpassen:
+- folder: Bepaalt de folder (voor plaatjes bijv)
+- layout: Bepaalt de pagina stijl
+
+#### !Warning: 
+Alleen aanpassen indien je zeker weet wat je doet. Let op spaties en enters, die zijn belangrijk.
+
+Kijk eventueel naar de andere `.md` bestandjes uit de zelfde folder
+
+
+#### De tekst
+
+De rest van het `.md` bestand is de opmaak van de pagina in markdown formaat
+
 ## Pagina's aanpassen
 
 #### Home 

@@ -1,5 +1,5 @@
 ---
-title: My First Page
+title: De Storey Club
 layout: index
 ---
 
