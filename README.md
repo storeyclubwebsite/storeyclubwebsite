@@ -70,45 +70,10 @@ In plaats van een moeilijke agenda module, lijkt het mij het makkelijkst om de a
 ___
 #### Foto's
 
-Om foto's te uploaden, moet je een album hebben. 
-De albums staan in `_albums/`. 
 De foto's staan in `pictures/`.
 
-###### Het is belangrijk om de naam van het album en de pictures folder gelijk te houden
+De foto's moeten in een folder staan.
 
-Stap 1:
-Maak een album aan in `_albums/`, bijvoorbeeld `2019_01_30_eerste_vergadering.md`
-
-In dit .md bestandje moet het volgende staan:
-
-```
-
----
-title: Vergadering 
-folder: 2019_01_20_vergadering
-layout: album
----
-
-```
-
-De titel kun je aanpassen naar wens. De rest is nodig om de pagina aan te maken
-
-###### De naam van het bestand moet zijn: datum (yyyy-mm-dd) + de naam + .md 
-
-Stap 2:
-Maak een mapje aan in `pictures/` met DEZELFDE naam, bijvoorbeeld `2019_01_30_eerste_vergadering` 
-
-###### Het is belangrijk dat het album en het mapje dezelfde naam hebben (maar zonder de .md extensie, want het is een folder)
-
-Stap 3:
-Plaats alle foto's in het zojuist aangemaakt mapje in `pictures`, bijvoorbeeld in `pictures/2019_01_30_eerste_vergadering`
-
-
-##### Te moeilijk? Gebruik te helper
-
-Voer het `foto_album_maken.sh` bestand uit (linux). Deze loopt je door de bovenstaande stappen door.
-
-___
 #### Vrienden van de storeyclub
 
 De vrienden van de storeyclub pagina kun je aanpassen in `pages/friends.md`
@@ -156,11 +121,6 @@ Vanaf 2019 kunnen we bier goedkoper gaan maken, want .....
 ```
 
 `description` is dus slechts een korte beschrijving. Alle tekst daaronder is de tekst die op de pagina zelf komt.
-
-
-##### Te moeilijk? Gebruik te helper
-
-Voer het `artikel_maken.sh` bestand uit (linux). Deze loopt je door de bovenstaande stappen door.
 
 ## Alles live zetten
 
