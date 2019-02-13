@@ -3,6 +3,8 @@ url: https://storeyclubwebsite.github.io/storeyclubwebsite
 lang: "nl-NL"
 facebook_url: "https://www.facebook.com/Storeyclub"
 
+repository: "storeyclubwebsite/storeyclubwebsite"
+
 paginate: 4
 paginate_path: "/posts/post:num/"
 
