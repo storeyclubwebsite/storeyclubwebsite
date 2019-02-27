@@ -1,9 +1,6 @@
 # Agenda
 
-## Darttoernooi 
-### 16 februari | 14:00 uur
-
-De inschrijvingen zijn bijna vol, dus wees er nog snel bij! 
+ 
 
 
 ## Memphis 
