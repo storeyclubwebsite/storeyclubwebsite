@@ -2,6 +2,7 @@
 <html lang="{{ site.lang }}">
 
 {% include head.html %}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
 <body>
 
@@ -23,7 +24,7 @@
         {% endif %}
 
         <!-- Trigger the Modal -->
-        <img class="myImg" onclick="showInModel(this);" src="{{ site.url}}/{{ image.path }}" alt="{{ image.name }}" style="width: 240px; height: 160px;">
+        <img class="myImg lozad" onclick="showInModel(this);" data-src="{{ site.url}}/{{ image.path }}" alt="{{ image.name }}" style="width: 240px; height: 160px;">
 
         {% endif %}
         {% endfor %}
@@ -156,7 +157,11 @@
     // When the user clicks on <span> (x), close the modal
     span.onclick = function () {
         modal.style.display = "none";
-    }
+    };
+
+    // Lozad, lazy image loader
+    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
 </script>
 </body>
 </html>
