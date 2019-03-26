@@ -3,8 +3,7 @@
 
 ## Kinderfilm 
 ### Za. 13 April | 14:00 uur 
-#### Entree 3,- inclusief snoepje en drinken. 
-
+#### Entree €3,- inclusief snoepje en drinken. 
 
 ## Left Behind
 ### Vr. 19 April  | 22:00 uur 
@@ -17,4 +16,4 @@
 ## Koningsdag 
 ### Za 27 April bij Meervogels 
 #### We proosten er weer eentje op onze koning! 
-en voor de kleintjes hebben we ook weer genoeg activiteiten. 
+#### En voor de kleintjes hebben we ook weer genoeg activiteiten. 
